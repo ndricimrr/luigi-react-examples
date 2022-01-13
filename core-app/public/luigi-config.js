@@ -12,7 +12,7 @@ Luigi.setConfig({
             pathSegment: 'orders',
             keepSelectedForChildren: true,
             label: 'Find',
-            viewUrl: "http://localhost:5000",
+            viewUrl: "http://localhost:5001",
             navigationContext:'root',
             loadingIndicator: {
               enabled: false
