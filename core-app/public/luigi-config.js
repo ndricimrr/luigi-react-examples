@@ -11,7 +11,7 @@ Luigi.setConfig({
             category: { label: 'Orders', icon: 'product', collapsible: true },
             pathSegment: 'orders',
             keepSelectedForChildren: true,
-            label: 'Find',
+            label: 'Orders',
             viewUrl: "http://localhost:5001",
             navigationContext:'root',
             loadingIndicator: {
@@ -28,6 +28,16 @@ Luigi.setConfig({
               }
             ],
           },
+          {
+            pathSegment: 'products', 
+            label: 'VirtualExample', 
+            loadingIndicator: {
+                enabled: false
+            },
+            virtualTree: true,
+            viewUrl: 'http://localhost:5001/products'
+            
+          }
         ]
       }
     ]
