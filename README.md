@@ -1,4 +1,4 @@
-# README
+# Instructions
 Luigi examples with micro frontends set up as standalone react applications
 
 Each folder contains one standalone react application. 
